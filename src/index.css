@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav{
+  background-color: rgb(23, 17, 49);
+  padding: 20px;
+}
+.nav a{
+  margin-left: 30px;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav a:hover{
+  color: rgb(61, 190, 255);
+}
+.nav a.active{
+  color: rgb(61, 190, 255);
+}
+.login-cont{
+  display: flex;
+  justify-content: center;
+}
+
+.login form{
+  border: 2px solid rgb(23, 17, 49);
+  width: 400px;
+  background-color: rgb(23, 17, 49);
+  color: white;
+  height: 320px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.login input{
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.login label{
+  font-size: 18px;
+}
+.login button{
+  width: 90px;
+  height: 40px;
+  background-color: greenyellow;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.login a{
+  color: rgb(61, 190, 255);
+}
+.login a:hover{
+  color: greenyellow;
+}
+.login h1{
+  color: rgb(61, 190, 255);
+}
+
+.emp-logo{
+  display: flex;
+
+  background-color: rgba(187, 255, 255, 0.627);
+  height: 400px;
+  background-image: url("./componants/emp.png");
+  background-repeat: no-repeat;
+  background-size: 430px;
+  background-position: 80% ;
+}
+.emp-logo h1{
+  position: relative;
+  top: 70px;
+  left: 70px;
+  font-size: 60px;
+  line-height: 100px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.heading{
+  width: 600px;
+  text-align: left;
+  
+}
+
+
+
+.footer {
+  margin-top: 6rem;
+  background-color: rgba(201, 201, 201, 0.381);
+  color: #000000;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .heading {
+  padding-top: 1rem;
+  color: #000000;
+  max-width: 1010px;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+}
+
+.footer .content p {
+  margin-bottom: 1.3rem;
+}
+
+.footer .content a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer .content a:hover {
+  border-bottom: 1px solid #971717;
+}
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 21px;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+
+.Name p{
+  color: white;
+  margin-top: 100px;
+  margin-left: -270px;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.para{
+ align-self: center;
+ line-height: 30px;
+  width: 70%;
+}
+.abt-cont{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about1{
+  width: 300px;
+}
+.par{
+  text-align: justify;
+}
+
+.user-conatiner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.users{
+ border: 1px solid black;
+ text-align: left;
+ margin: 30px;
+ padding-left: 40px;
+padding-right: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 10px;
+background-color: rgb(23, 17, 49);
+color: white;
+box-shadow: 0px 0px 30px black;
+}
+.users img{
+  padding-left: 20px;
+}
+
+.tot-log{
+  margin-top: 140px;
+  display: flex;
+  box-shadow: 0px 0px 30px black;
+  border-radius: 10px;
+}
+.log-img{
+
+  height: 322px;
+  border: 1px solid black;
+  width: 380px;
+  background-image: url('./componants/login.jpg');
+  background-position: center;
+
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

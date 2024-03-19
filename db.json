@@ -1,0 +1,72 @@
+{
+  "Users": [
+    {
+      "username": "Adam",
+      "email": "abc@gm.com",
+      "password": "1234",
+      "id": "dd78"
+    },
+    {
+      "id": "c335",
+      "username": "mohan",
+      "email": "asdf@gm.com",
+      "password": "123"
+    },
+    {
+      "id": "84f1",
+      "username": "nash",
+      "email": "asdw@gm.com",
+      "password": "1234"
+    },
+    {
+      "id": "93bd",
+      "username": "admin",
+      "email": "admin@gm.com",
+      "password": "admin123"
+    },
+    {
+      "id": "16f7",
+      "username": "Raja",
+      "email": "raja@gm.com",
+      "password": "1234"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "naresh",
+      "age": "30",
+      "role": "developer",
+      "profile": "https://leadershipcircle.com/wp-content/uploads/2022/07/Tyson-Andrus.png",
+      "salary": "50000",
+      "experience": "4"
+    },
+    {
+      "id": "2",
+      "name": "mohan",
+      "age": "27",
+      "role": "tester",
+      "profile": "https://www.esnleuven.be/sites/default/files/imce/saan_bollens-modified.png",
+      "salary": "50000",
+      "experience": "5"
+    },
+    {
+      "id": "3",
+      "name": "waugh",
+      "age": "25",
+      "role": "designer",
+      "profile": "https://www.colorado.edu/instaar/sites/default/files/styles/medium/public/people/Jianghanyang_Ben_Li.png?itok=-LDV9UgZ",
+      "salary": "70000",
+      "experience": "3"
+    },
+    {
+      "id": "4",
+      "name": "Mathew",
+      "age": "30",
+      "role": "HR",
+      "profile": "https://leadershipcircle.com/wp-content/uploads/2023/04/Matt-Ingersole-1.png",
+      "salary": "80000",
+      "experience": "4"
+    }
+  ]
+}
